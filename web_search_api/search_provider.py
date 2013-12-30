@@ -80,8 +80,8 @@ class Serp:
             rank += 1
         return res_str
 
-    def _repr(self):
-        return unicode(self)
+    def __repr__(self):
+        return unicode(self).encode('utf-8')
 
 class SearchProvider:
     """ Abstract class for all search providers. """
