@@ -18,6 +18,7 @@ Documentation
 -------------
 
 Here is a simple example:
+
     from web_search_api import SearchProxy
     proxy = SearchProxy(engine='bing', api_key='<YOUR BING API KEY>')
     serp = proxy.search('Who is John Galt?')
