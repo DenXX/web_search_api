@@ -1,7 +1,7 @@
 Python Web Search API wrapper
 ==============
 
-Python wrapper for Bing and Google Web Search API. 
+Python wrapper for Bing Web Search API. 
 
 Installation
 ------------
